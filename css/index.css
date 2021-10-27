@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+* {
+    font-family: 'Black Ops One', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #845ec2;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+}
+
+.usrinfo {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.usr_info {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    border: 1px solid #fefefe;
+    text-align: center;
+    color: #fff;
+    background: #2c2c4d;
+}
+
+.usr_info.acitve {
+    background: orange;
+    border: 2px solid #2c2c4d;
+}
+
+.x,
+.o {
+    margin-top: 5px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.x {
+    color: #d42515;
+}
+
+.o {
+    color: #f9f871;
+}
+
+.usrname {
+    font-size: 17px;
+    color: #fff;
+}
+
+.gameboard {
+    width: 350px;
+    height: 350px;
+    background: #7e4999;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.gamebox {
+    margin-top: 5px;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+    background: #2c2c4d;
+    margin-left: 6.5px;
+}
+
+.box.active {
+    background: #0fa00a;
+}
+
+.box .x,
+.box .o {
+    font-size: 80px;
+    cursor: pointer;
+}
+
+div[class*="row_"] {
+    margin-bottom: 10px;
+    display: flex;
+}
