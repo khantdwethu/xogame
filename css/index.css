@@ -20,10 +20,17 @@ body {
     width: 400px;
     height: 500px;
 }
-
+.resetBtn{
+padding:10px;
+line-height:10px;   
+background:tomato;
+color:#fff;
+display:block;
+margin:0 auto 30px auto;
+}
 .usrinfo {
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     display: flex;
     justify-content: space-around;
 }
