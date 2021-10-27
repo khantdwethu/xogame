@@ -1,3 +1,3 @@
 # xogame
 
-https://khantdwethu.github.io/xogame/start.html
+https://khantdwethu.github.io/xogame/index.html
